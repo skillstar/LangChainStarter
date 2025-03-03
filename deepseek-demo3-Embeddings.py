@@ -1,3 +1,5 @@
+#pip install sentence-transformers  -i https://pypi.org/simple
+
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings  
 from langchain_community.vectorstores import FAISS  
 from langchain_core.documents import Document  
